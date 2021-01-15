@@ -1,0 +1,17 @@
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    long long l, r;
+    cin >> l >> r;
+    cout << "YES\n";
+    while (l < r)
+    {
+        cout << l << " " << l + 1 << endl;
+        l += 2;
+    }
+    return 0;
+}
